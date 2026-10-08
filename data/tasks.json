@@ -1,0 +1,395 @@
+{
+  "tasks": [
+    {
+      "id": "TSK-2026-0001",
+      "title": "Set up project registry",
+      "title_bn": "প্রজেক্ট রেজিস্ট্রি সেটআপ",
+      "desc": "Create index.html, data.json and scripts.",
+      "status": "done",
+      "priority": "high",
+      "due": "",
+      "category": "setup",
+      "tags": [
+        "setup"
+      ],
+      "created_at": "2026-09-24T09:00:00+06:00",
+      "completed_at": "2026-09-24T10:00:00+06:00",
+      "history": [
+        {
+          "at": "2026-09-24T09:00:00+06:00",
+          "event": "created"
+        },
+        {
+          "at": "2026-09-24T10:00:00+06:00",
+          "event": "status → done",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0002",
+      "title": "Add logo to assets/",
+      "title_bn": "assets/ এ লোগো যুক্ত করুন",
+      "desc": "Place logo.png inside assets folder.",
+      "status": "todo",
+      "priority": "urgent",
+      "due": "2026-09-30",
+      "category": "setup",
+      "tags": [
+        "logo"
+      ],
+      "created_at": "2026-09-24T09:05:00+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-24T09:05:00+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0003",
+      "title": "Review weekly entries",
+      "title_bn": "সাপ্তাহিক এন্ট্রি পর্যালোচনা",
+      "desc": "",
+      "status": "doing",
+      "priority": "medium",
+      "due": "2026-10-01",
+      "category": "review",
+      "tags": [
+        "weekly"
+      ],
+      "created_at": "2026-09-24T09:10:00+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-24T09:10:00+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0004",
+      "title": "Internet",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-30",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:44:06+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:44:06+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0005",
+      "title": "HACKING, CRACKING  or ILLEGAL ACTIVITIES",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-10-01",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:45:12+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:45:12+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0006",
+      "title": "The Onion Router",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:46:31+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:46:31+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0007",
+      "title": "access dark net",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:48:47+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:48:47+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0008",
+      "title": "dark web",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:49:47+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:49:47+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0009",
+      "title": "deep web",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:50:45+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:50:45+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0010",
+      "title": "deep internet or hiddenweb",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:51:50+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:51:50+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0011",
+      "title": "Access deep internet or hiddenweb with advanced security by using TOR Browser.",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:53:14+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:53:14+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0012",
+      "title": "Ethical Hacking",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:54:20+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:54:20+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0013",
+      "title": "Cyber Security",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-27",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:55:11+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:55:11+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0014",
+      "title": "Node server",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:56:25+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:56:25+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0015",
+      "title": "Video live plan",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:58:12+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:58:12+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0016",
+      "title": "Doner page setup",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T04:59:24+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T04:59:24+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0017",
+      "title": "Investor page setup",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T05:00:27+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T05:00:27+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0018",
+      "title": "Lender page setup",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T05:02:53+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T05:02:53+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0019",
+      "title": "Identifying and listing the outstanding items for the ongoing website setup project.",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T05:06:03+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T05:06:03+06:00",
+          "event": "created"
+        }
+      ]
+    },
+    {
+      "id": "TSK-2026-0020",
+      "title": "Node",
+      "title_bn": "",
+      "desc": "",
+      "status": "todo",
+      "priority": "medium",
+      "due": "2026-09-25",
+      "category": "general",
+      "tags": [],
+      "created_at": "2026-09-25T06:37:45+06:00",
+      "completed_at": "",
+      "history": [
+        {
+          "at": "2026-09-25T06:37:45+06:00",
+          "event": "created"
+        }
+      ]
+    }
+  ]
+}
