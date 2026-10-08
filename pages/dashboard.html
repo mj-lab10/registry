@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/styles.css" />
   </head>
-  <body>
+  <body data-page="dashboard" data-root="..">
     <header class="site-header">
       <div class="brand-wrap">
         <img class="brand-logo" src="../assets/logo.png" alt="MJ Ahmad Registry" />
@@ -79,22 +79,22 @@
         <section class="kpi-grid">
           <article class="panel">
             <div class="panel-label">Tasks</div>
-            <div class="metric-value">18</div>
+            <div id="kpi-tasks" class="metric-value">18</div>
             <div class="metric-meta">Open operational tasks</div>
           </article>
           <article class="panel">
             <div class="panel-label">Notes</div>
-            <div class="metric-value">43</div>
+            <div id="kpi-notes" class="metric-value">43</div>
             <div class="metric-meta">Knowledge entries</div>
           </article>
           <article class="panel">
             <div class="panel-label">Audit</div>
-            <div class="metric-value">06</div>
+            <div id="kpi-audits" class="metric-value">06</div>
             <div class="metric-meta">Current review items</div>
           </article>
           <article class="panel">
             <div class="panel-label">Registry</div>
-            <div class="metric-value">523</div>
+            <div id="kpi-code" class="metric-value">523</div>
             <div class="metric-meta">Indexed records</div>
           </article>
         </section>
@@ -105,7 +105,7 @@
               <h2>Priority watchlist</h2>
               <a href="tasks.html">View task board</a>
             </div>
-            <div class="list-stack">
+            <div class="list-stack" id="priority-watchlist">
               <div class="list-row">
                 <div>
                   <strong>Governance review</strong>
@@ -135,7 +135,7 @@
               <h2>Leadership notes</h2>
               <a href="notes.html">Open notes</a>
             </div>
-            <div class="list-stack">
+            <div class="list-stack" id="leadership-notes">
               <div class="list-row">
                 <div>
                   <strong>Security policy summary</strong>

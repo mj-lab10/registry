@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
+  <body data-page="home" data-root=".">
     <header class="site-header">
       <div class="brand-wrap">
         <img class="brand-logo" src="assets/logo.png" alt="MJ Ahmad Registry" />
@@ -103,7 +103,7 @@
               <span class="label">Open Tasks</span>
               <span class="badge badge-warning">12 active</span>
             </div>
-            <div class="metric-value">18</div>
+            <div id="stat-tasks" class="metric-value">18</div>
             <div class="metric-meta">Across planning, delivery, and review</div>
           </article>
 
@@ -112,7 +112,7 @@
               <span class="label">Notes</span>
               <span class="badge badge-info">Updated</span>
             </div>
-            <div class="metric-value">43</div>
+            <div id="stat-notes" class="metric-value">43</div>
             <div class="metric-meta">Structured knowledge and references</div>
           </article>
 
@@ -121,7 +121,7 @@
               <span class="label">Audit Findings</span>
               <span class="badge badge-success">Low risk</span>
             </div>
-            <div class="metric-value">06</div>
+            <div id="stat-audits" class="metric-value">06</div>
             <div class="metric-meta">Action items tracked and reviewed</div>
           </article>
 
@@ -130,7 +130,7 @@
               <span class="label">Code Vault</span>
               <span class="badge badge-soft">523 entries</span>
             </div>
-            <div class="metric-value">523</div>
+            <div id="stat-code" class="metric-value">523</div>
             <div class="metric-meta">Snippets, projects, and references</div>
           </article>
         </section>
@@ -141,7 +141,7 @@
               <h2>Recent Activity</h2>
               <a href="pages/tasks.html">View all</a>
             </div>
-            <div class="list-stack">
+            <div class="list-stack" id="recent-activity">
               <div class="list-row">
                 <div>
                   <strong>Review governance report</strong>
@@ -268,7 +268,7 @@
           <div class="command-block">
             <div class="command-label">Add task</div>
             <div class="command-row">
-              <code>./run.sh task "Title" --priority high</code>
+              <code>./run.sh task "Title"</code>
               <button type="button">Copy</button>
             </div>
           </div>
