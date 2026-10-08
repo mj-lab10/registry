@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks | MJ Ahmad Registry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-wrap">
+        <img class="brand-logo" src="../assets/logo.png" alt="MJ Ahmad Registry" />
+        <div>
+          <div class="brand-title">MJ Ahmad</div>
+          <div class="brand-subtitle">Registry · Executive Portal</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="tasks.html" class="active">Tasks</a>
+        <a href="notes.html">Notes</a>
+        <a href="code.html">Code</a>
+        <a href="audit.html">Audit</a>
+        <a href="registry.html">Registry</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="button secondary command-toggle" type="button">Command Center</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <aside class="sidebar">
+        <section class="panel">
+          <div class="panel-label">Task status</div>
+          <h3>Current queue</h3>
+          <ul class="sidebar-links">
+            <li><a href="#">To do</a></li>
+            <li><a href="#">In progress</a></li>
+            <li><a href="#">Blocked</a></li>
+            <li><a href="#">Completed</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="content-area">
+        <section class="panel page-hero">
+          <div>
+            <div class="eyebrow">Tasks</div>
+            <h1>Task operations</h1>
+            <p>Monitor workstreams, priorities, and execution status across the registry.</p>
+          </div>
+          <button class="button primary command-toggle" type="button">Quick command</button>
+        </section>
+
+        <section class="panel">
+          <div class="section-header">
+            <h2>Task board</h2>
+            <a href="../index.html">Home</a>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Task</th>
+                  <th>Priority</th>
+                  <th>Status</th>
+                  <th>Owner</th>
+                  <th>Due</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>TSK-2026-0001</td>
+                  <td>Portal redesign review</td>
+                  <td><span class="table-tag">High</span></td>
+                  <td><span class="status-pill status-warning">In progress</span></td>
+                  <td>MJ Ahmad</td>
+                  <td>2026-10-15</td>
+                </tr>
+                <tr>
+                  <td>TSK-2026-0004</td>
+                  <td>Audit validation cycle</td>
+                  <td><span class="table-tag">Medium</span></td>
+                  <td><span class="status-pill status-success">Pass</span></td>
+                  <td>Operations</td>
+                  <td>2026-10-11</td>
+                </tr>
+                <tr>
+                  <td>TSK-2026-0012</td>
+                  <td>Governance documentation</td>
+                  <td><span class="table-tag">Urgent</span></td>
+                  <td><span class="status-pill status-warning">Action</span></td>
+                  <td>Leadership</td>
+                  <td>2026-10-09</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div class="command-panel" id="commandPanel" aria-hidden="true">
+      <div class="command-panel-inner" role="dialog" aria-modal="true" aria-labelledby="commandTitle">
+        <div class="command-header">
+          <div>
+            <div class="panel-label">Command Center</div>
+            <h3 id="commandTitle">Quick commands</h3>
+          </div>
+          <button class="close-panel" type="button" aria-label="Close command center">×</button>
+        </div>
+        <div class="command-tabs">
+          <button class="tab active" type="button">Actions</button>
+          <button class="tab" type="button">Links</button>
+          <button class="tab" type="button">Info</button>
+        </div>
+        <div class="command-content">
+          <div class="command-block">
+            <div class="command-label">Start viewer</div>
+            <div class="command-row">
+              <code>./run.sh serve</code>
+              <button type="button">Copy</button>
+            </div>
+          </div>
+          <div class="command-block">
+            <div class="command-label">Add task</div>
+            <div class="command-row">
+              <code>./run.sh task "Title" --priority high</code>
+              <button type="button">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="notes.html">Notes</a>
+        <a href="code.html">Code</a>
+        <a href="audit.html">Audit</a>
+        <a href="registry.html">Registry</a>
+        <a href="sitemap.html">Sitemap</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <div class="footer-meta">© <span id="year"></span> MJ Ahmad · Registry Portal</div>
+    </footer>
+
+    <script src="../assets/app.js"></script>
+  </body>
+</html>

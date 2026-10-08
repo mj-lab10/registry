@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | MJ Ahmad Registry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-wrap">
+        <img class="brand-logo" src="../assets/logo.png" alt="MJ Ahmad Registry" />
+        <div>
+          <div class="brand-title">MJ Ahmad</div>
+          <div class="brand-subtitle">Registry · Executive Portal</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="notes.html">Notes</a>
+        <a href="code.html">Code</a>
+        <a href="audit.html">Audit</a>
+        <a href="registry.html">Registry</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="button secondary command-toggle" type="button">Command Center</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <aside class="sidebar">
+        <section class="panel">
+          <div class="panel-label">Executive Snapshot</div>
+          <h3>Quarterly status</h3>
+          <div class="mini-bars" aria-label="Quarterly status bars">
+            <span style="height: 52%"></span>
+            <span style="height: 68%"></span>
+            <span style="height: 80%"></span>
+            <span style="height: 71%"></span>
+            <span style="height: 94%"></span>
+            <span style="height: 85%"></span>
+          </div>
+          <div class="stat-inline">
+            <strong>81%</strong>
+            <span>completion</span>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-label">Key Areas</div>
+          <ul class="sidebar-links">
+            <li><a href="tasks.html">Task prioritization</a></li>
+            <li><a href="notes.html">Knowledge notes</a></li>
+            <li><a href="audit.html">Review cycles</a></li>
+            <li><a href="registry.html">Registry health</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="content-area">
+        <section class="panel page-hero">
+          <div>
+            <div class="eyebrow">Executive dashboard</div>
+            <h1>Operational overview</h1>
+            <p>Current performance metrics, priorities, and delivery watchlist.</p>
+          </div>
+          <a href="../index.html" class="button primary">Back to Home</a>
+        </section>
+
+        <section class="kpi-grid">
+          <article class="panel">
+            <div class="panel-label">Tasks</div>
+            <div class="metric-value">18</div>
+            <div class="metric-meta">Open operational tasks</div>
+          </article>
+          <article class="panel">
+            <div class="panel-label">Notes</div>
+            <div class="metric-value">43</div>
+            <div class="metric-meta">Knowledge entries</div>
+          </article>
+          <article class="panel">
+            <div class="panel-label">Audit</div>
+            <div class="metric-value">06</div>
+            <div class="metric-meta">Current review items</div>
+          </article>
+          <article class="panel">
+            <div class="panel-label">Registry</div>
+            <div class="metric-value">523</div>
+            <div class="metric-meta">Indexed records</div>
+          </article>
+        </section>
+
+        <section class="content-grid two-col">
+          <article class="panel">
+            <div class="section-header">
+              <h2>Priority watchlist</h2>
+              <a href="tasks.html">View task board</a>
+            </div>
+            <div class="list-stack">
+              <div class="list-row">
+                <div>
+                  <strong>Governance review</strong>
+                  <small>Due today</small>
+                </div>
+                <span class="status-pill status-warning">Urgent</span>
+              </div>
+              <div class="list-row">
+                <div>
+                  <strong>Portal refresh</strong>
+                  <small>Design handoff</small>
+                </div>
+                <span class="status-pill status-info">In progress</span>
+              </div>
+              <div class="list-row">
+                <div>
+                  <strong>Compliance verification</strong>
+                  <small>Audit cycle</small>
+                </div>
+                <span class="status-pill status-success">Pass</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="section-header">
+              <h2>Leadership notes</h2>
+              <a href="notes.html">Open notes</a>
+            </div>
+            <div class="list-stack">
+              <div class="list-row">
+                <div>
+                  <strong>Security policy summary</strong>
+                  <small>Updated 2h ago</small>
+                </div>
+                <span class="status-pill status-soft">Pinned</span>
+              </div>
+              <div class="list-row">
+                <div>
+                  <strong>New platform launch plan</strong>
+                  <small>Strategy</small>
+                </div>
+                <span class="status-pill status-info">Review</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="section-header">
+            <h2>Operational summary</h2>
+          </div>
+          <div class="card-grid">
+            <div class="info-card">
+              <h3>Delivery health</h3>
+              <ul>
+                <li>On-track release cadence</li>
+                <li>One blocked dependency reviewed</li>
+                <li>Documentation is current</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h3>Audit health</h3>
+              <ul>
+                <li>0 critical issues active</li>
+                <li>2 follow-ups scheduled</li>
+                <li>Risk level remains stable</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h3>Registry status</h3>
+              <ul>
+                <li>523 indexed entries</li>
+                <li>Recent changes validated</li>
+                <li>Archive remains clean</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div class="command-panel" id="commandPanel" aria-hidden="true">
+      <div class="command-panel-inner" role="dialog" aria-modal="true" aria-labelledby="commandTitle">
+        <div class="command-header">
+          <div>
+            <div class="panel-label">Command Center</div>
+            <h3 id="commandTitle">Quick commands</h3>
+          </div>
+          <button class="close-panel" type="button" aria-label="Close command center">×</button>
+        </div>
+        <div class="command-tabs">
+          <button class="tab active" type="button">Actions</button>
+          <button class="tab" type="button">Links</button>
+          <button class="tab" type="button">Info</button>
+        </div>
+        <div class="command-content">
+          <div class="command-block">
+            <div class="command-label">Start viewer</div>
+            <div class="command-row">
+              <code>./run.sh serve</code>
+              <button type="button">Copy</button>
+            </div>
+          </div>
+          <div class="command-block">
+            <div class="command-label">Add task</div>
+            <div class="command-row">
+              <code>./run.sh task "Title" --priority high</code>
+              <button type="button">Copy</button>
+            </div>
+          </div>
+          <div class="command-block">
+            <div class="command-label">Validate registry</div>
+            <div class="command-row">
+              <code>./run.sh check</code>
+              <button type="button">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="notes.html">Notes</a>
+        <a href="code.html">Code</a>
+        <a href="audit.html">Audit</a>
+        <a href="registry.html">Registry</a>
+        <a href="sitemap.html">Sitemap</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <div class="footer-meta">© <span id="year"></span> MJ Ahmad · Registry Portal</div>
+    </footer>
+
+    <script src="../assets/app.js"></script>
+  </body>
+</html>
